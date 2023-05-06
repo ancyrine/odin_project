@@ -1,0 +1,79 @@
+/*
+* {
+  border: 2px solid red;
+}
+*/
+
+#title {
+  color: blue;
+  display: block;
+  font-size: 300%;
+  text-align: center;
+}
+
+#sub-title {
+  color: green;
+  display: block;
+  font-size: 200%;
+  text-align: center;
+}
+
+.choice {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.choice button {
+  width: 20%;
+  margin: 5%;
+  color: black;
+  font-size: 200%;
+}
+
+.choice button img {
+  width: 100%;
+  height: 100%;
+}
+
+#computerresult,
+#winner {
+  margin: 2%;
+  min-height: 40px;
+  display: block;
+  text-align: center;
+  font-size: 200%;
+}
+
+#score {
+  display: block;
+  text-align: center;
+  font-size: 400%;
+  margin-top: 5%;
+}
+
+.score {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 150%;
+}
+
+.player p,
+.computer p {
+  font-size: 150%;
+}
+
+.playerscore,
+.computerscore {
+  font-size: 300%;
+}
+.reset {
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+}
+.reset button {
+  font-size: 300%;
+  padding: 2%;
+}
