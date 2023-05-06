@@ -1,0 +1,30 @@
+* {
+  border: 2px solid red;
+}
+div {
+  padding: 3px;
+  text-align: left;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.main-recipe {
+  background-color: darkgoldenrod;
+}
+
+.contents {
+  display: flex;
+  padding-inline: 10px;
+  gap: 5px;
+  align-content: center;
+}
+
+.main-recipe .contents .menu {
+  color: blue;
+  background-color: white;
+  flex: 3;
+}
+
+.last-recipes {
+  background-color: lavender;
+}
