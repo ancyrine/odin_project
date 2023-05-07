@@ -1,0 +1,22 @@
+/*
+* {
+  border: 2px solid red;
+}
+*/
+
+#title {
+  font-size: 300%;
+  text-align: center;
+  margin: 4%;
+}
+
+.project-list li {
+  padding-top: 1%;
+  font-size: 200%;
+  color: darkmagenta;
+}
+
+.project-list p {
+  margin: 0.5%;
+  font-size: 150%;
+}
